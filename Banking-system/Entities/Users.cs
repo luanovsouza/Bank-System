@@ -23,7 +23,7 @@ public class Users
 
     public void Deposit(double ammount)
     {
-        if (ammount == 0.0)
+        if (ammount == 0)
         {
             throw new UsersExceptions("A quantia nao pode ser 0!");
         }

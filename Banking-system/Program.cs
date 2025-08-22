@@ -1,6 +1,5 @@
 ﻿using System.Globalization;
 using Banking_System.Entities;
-using System.IO;
 
 namespace Banking_System;
 
@@ -39,11 +38,12 @@ public class Program
             Console.WriteLine("Senha incorreta, tente Novamente! \n");
             return null; //Aqui esta a verificação se ele for nulo ou não
         }
+
         //Se não for nulo vai pedir o saldo, e instanciar um novo objeto do tipo ‘Users’
         Console.Write("Qual seu saldo Inicial?: ");
         double initialBalance = double.Parse(Console.ReadLine()!, CultureInfo.InvariantCulture);
         Console.WriteLine();
-        
+
         return new Users(name, passWord, initialBalance, login);
     }
 
@@ -62,15 +62,43 @@ public class Program
             switch (option)
             {
                 case "1":
-                    Console.WriteLine($"Saldo: {users.Balance.ToString("F2", CultureInfo.InvariantCulture)}");
+                    Console.WriteLine($"Saldo: R$ {users.Balance.ToString("F2", CultureInfo.InvariantCulture)}");
                     Console.WriteLine();
                     break;
                 case "2":
-                    Console.WriteLine("Digite uma quantia para depositar: ");
-                    double ammount = double.Parse(Console.ReadLine()!, CultureInfo.InvariantCulture);
-                    users.Deposit(ammount);
-                    Console.WriteLine();
-                    break;
+                    try
+                    {
+                        Console.WriteLine("Digite uma quantia para depositar: ");
+                        double ammount = double.Parse(Console.ReadLine()!, CultureInfo.InvariantCulture);
+                        users.Deposit(ammount);
+                        Console.WriteLine();
+                        break;
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine("Um erro Aconteceu!");
+                        Console.WriteLine(e.Message);
+                        break;
+                    }
+                case "3":
+                    try
+                    {
+                        Console.WriteLine("Digite uma quantia para sacar: ");
+                        double ammount = double.Parse(Console.ReadLine()!, CultureInfo.InvariantCulture);
+                        users.WithDraw(ammount);
+                        Console.WriteLine();
+                        break;
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine("Um erro Aconteceu!");
+                        Console.WriteLine(e.Message);
+                        break;
+                    }
+                    
+                case  "4":
+                    Console.WriteLine("Ok, saindo....");
+                    return;
             }
         }
     }
