@@ -1,0 +1,15 @@
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Sistema-Bancario\Banking-system\Banking-system\bin\Debug\net9.0\Banking-system.exe
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Sistema-Bancario\Banking-system\Banking-system\bin\Debug\net9.0\Banking-system.deps.json
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Sistema-Bancario\Banking-system\Banking-system\bin\Debug\net9.0\Banking-system.runtimeconfig.json
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Sistema-Bancario\Banking-system\Banking-system\bin\Debug\net9.0\Banking-system.dll
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Sistema-Bancario\Banking-system\Banking-system\bin\Debug\net9.0\Banking-system.pdb
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Sistema-Bancario\Banking-system\Banking-system\obj\Debug\net9.0\Banking-system.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Sistema-Bancario\Banking-system\Banking-system\obj\Debug\net9.0\Banking-system.AssemblyInfoInputs.cache
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Sistema-Bancario\Banking-system\Banking-system\obj\Debug\net9.0\Banking-system.AssemblyInfo.cs
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Sistema-Bancario\Banking-system\Banking-system\obj\Debug\net9.0\Banking-system.csproj.CoreCompileInputs.cache
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Sistema-Bancario\Banking-system\Banking-system\obj\Debug\net9.0\Banking-system.sourcelink.json
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Sistema-Bancario\Banking-system\Banking-system\obj\Debug\net9.0\Banking-system.dll
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Sistema-Bancario\Banking-system\Banking-system\obj\Debug\net9.0\refint\Banking-system.dll
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Sistema-Bancario\Banking-system\Banking-system\obj\Debug\net9.0\Banking-system.pdb
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Sistema-Bancario\Banking-system\Banking-system\obj\Debug\net9.0\Banking-system.genruntimeconfig.cache
+C:\Users\gamer\OneDrive\Documentos\Curso C# POO UDEMY\Desafios para treinar\Sistema-Bancario\Banking-system\Banking-system\obj\Debug\net9.0\ref\Banking-system.dll
